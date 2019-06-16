@@ -17,6 +17,23 @@
     </extension>
 </addon>
 
+<addon id="script.drastic.launcher" name="Drastic" version="1.0.0" provider-name="MonkeyBrothers">
+    <requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Creditos a Wilson</summary>
+		<description lang="en">Realizado por Monkey Brothers, gracias a la vitalidad de los kikos. Se ha obtenido la fuerza mental para obtener el emulador de NDS para CoreElec y LibreElec 9 con un rendimiento espectacular.</description>
+		<license>GNU General Public License, v2</license>
+		<language></language>
+		<website>https://normandy.es</website>
+	</extension>
+</addon>
+
 <addon id="script.ppsspp.launcher" name="PPSSPP" version="1.0.0" provider-name="MonkeyBrothers">
     <requires>
 		<import addon="xbmc.python" version="2.14.0"/>
