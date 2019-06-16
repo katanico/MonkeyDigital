@@ -17,7 +17,7 @@
     </extension>
 </addon>
 
-<addon id="script.drastic.launcher" name="Drastic" version="1.0.0" provider-name="MonkeyBrothers">
+<addon id="script.drastic.launcher" name="Drastic" version="1.0.1" provider-name="MonkeyBrothers">
     <requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 	</requires>
