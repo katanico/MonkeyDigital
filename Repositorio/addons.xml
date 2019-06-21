@@ -50,4 +50,21 @@
 		<website>https://normandy.es</website>
 	</extension>
 </addon>
+
+<addon id="skin.arctic.zephyr.2.fixmod" name="Arctic Zephyr 2 Fix MOD" version="1.0.0" provider-name="MonkeyBrothers">
+    <requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Creditos a DarzLir AND Flecky</summary>
+		<description lang="en">Realizado por Monkey Brothers, gracias a la vitalidad de los kikos. Se ha realizado un fix automatico Monkey Digital Edition para el skin Arctic Zephyr 2.</description>
+		<license>GNU General Public License, v2</license>
+		<language></language>
+		<website>https://normandy.es</website>
+	</extension>
+</addon>
 </addons>
