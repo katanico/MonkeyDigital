@@ -6,7 +6,7 @@
     <extension point="xbmc.addon.repository" name="MonkeyDigital Repo">
         <info>https://raw.githubusercontent.com/katanico/MonkeyDigital/master/Repositorio/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/katanico/MonkeyDigital/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/MonkeyDigital/master/Repositorio/</datadir>
+        <datadir zip="true">https://raw.githubusercontent.com/Katanico/MonkeyDigital/master/Repositorio/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Repositorio MonkeyDigital</summary>
