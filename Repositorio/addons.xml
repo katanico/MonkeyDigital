@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="repository.MonkeyDigital" name="[COLOR white]MonkeyDigital[/COLOR] Repo" version="1.0.1" provider-name="Monkey Digital">
+<addon id="repository.MonkeyDigital" name="[COLOR white]MonkeyDigital[/COLOR] Repo" version="1.0" provider-name="Monkey Digital">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
