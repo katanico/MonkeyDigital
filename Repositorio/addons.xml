@@ -34,7 +34,7 @@
 	</extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="5.0.64" provider-name="MonkeyBrothers">
+<addon id="script.module.urlresolver" name="URLResolver" version="5.0.64" provider-name="tvaddons">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="plugin.video.youtube" optional="true" />
