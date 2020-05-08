@@ -4,6 +4,7 @@
 	   version="0.2.6"
 	   provider-name="Slyguy"> 
   <requires>
+    <import addon="script.module.slyguy"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py" provides="video">
     <provides>video</provides>
