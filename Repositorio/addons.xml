@@ -111,6 +111,32 @@ No se acepta ninguna responsabilidad por el uso de este addon.
 	</extension>
 </addon>
 
+<addon id="script.module.slyguy"
+       name="SlyGuy Shared"
+	   	   version="0.4.0"
+	   provider-name="SlyGuy">
+  <requires>
+    <!-- <import addon="xbmc.python" version="2.1.0"/> -->
+  </requires>
+  <!-- <extension point="xbmc.python.script" library="default.py">
+    <provides>executable</provides>
+  </extension> -->
+  <extension point="xbmc.python.module" library="resources/modules" />
+  <extension point="xbmc.service" library="service.py" start="login" />
+  <extension point="xbmc.addon.metadata">
+    <description lang="en"></description>
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <license></license>
+    <language></language>
+    <website></website>
+    <news></news>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="script.module.urlresolver" name="URLResolver" version="5.0.65" provider-name="tvaddons">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
