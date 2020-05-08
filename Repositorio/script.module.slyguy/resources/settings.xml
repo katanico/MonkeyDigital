@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="32034">
+        <setting label="Persist Cache" id="persist_cache" type="bool" default="true" visible="false"/>
+        <setting label="Proxy Host" id="proxy_host" type="ipaddress" default="127.0.0.1"/>
+        <setting label="Proxy Port" id="proxy_port" type="number" default="52530"/>
+        
+        <setting id="_fresh" type="bool" default="true" visible="false"/>
+        <setting id="_userdata" type="text" default="{}" visible="false"/>
+    </category>
+</settings>
