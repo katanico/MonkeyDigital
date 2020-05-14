@@ -2,7 +2,7 @@
 <addon id="script.module.slyguy" 
        name="SlyGuy Shared"
 	   version="0.5.2"
-	   provider-name="SlyGuy">
+	   provider-name="SlyGuy"> 
   <requires>
     <!-- <import addon="xbmc.python" version="2.1.0"/> -->
   </requires>
