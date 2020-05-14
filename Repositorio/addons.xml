@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.video.disneyplus"
        name="Disney+"
-	   version="0.2.6"
+	   version="0.2.8"
 	   provider-name="Slyguy">
   <requires>
     <import addon="script.module.slyguy"/>
@@ -21,7 +21,7 @@ Abbonamento richiesto.</description>
     <license></license>
     <language></language>
     <website></website>
-    <news>Add italian translation (thanks marcopt)</news>
+    <news>Allow fullres worlwide workaround</news>
     <assets>
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
