@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.video.disneyplus"
        name="Disney+"
-	   version="0.2.9"
+	   version="0.3.0"
 	   provider-name="Slyguy">
   <requires>
     <import addon="script.module.slyguy"/>
@@ -113,7 +113,7 @@ No se acepta ninguna responsabilidad por el uso de este addon.
 
 <addon id="script.module.slyguy"
        name="SlyGuy Shared"
-	   version="0.6.0"
+	   version="0.6.9"
 	   provider-name="SlyGuy">
   <requires>
     <!-- <import addon="xbmc.python" version="2.1.0"/> -->
