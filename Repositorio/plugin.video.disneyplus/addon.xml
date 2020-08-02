@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.disneyplus" 
        name="Disney+"
-	   version="0.3.6" 
+	   version="0.3.6"
 	   provider-name="Slyguy">
   <requires>
     <import addon="script.module.slyguy"/>
