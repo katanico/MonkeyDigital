@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.mecooltoolbox" name="Mecool Toolbox" version="0.0.4" provider-name="Francisco Aarón - (fixed by Flecky)">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+
+
+    </requires>
+    <extension point="xbmc.python.script" library="main.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Utilidades para Mecool</summary>
+        <description lang="en_GB">Addon con utilidades varias para facilitar la preparación y el uso de LibreElec/CoreElec en los tv boxes Mecool, aunque algunas de las utilidades podrían servir para otros boxes, como por ejemplo las de OSCam/TvHeadend.</description>
+        <language></language>
+        <platform>all</platform>
+        <license>unlicense</license>
+        <forum></forum>
+        <website></website>
+        <email>xyz@xyz.com</email>
+        <source></source>
+        <news>Fixed por Flecky para su correcto funcionamiento con tvheadend 4.3</news>
+        <disclaimer></disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>

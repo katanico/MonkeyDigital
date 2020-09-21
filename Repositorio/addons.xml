@@ -115,6 +115,34 @@ No se acepta ninguna responsabilidad por el uso de este addon.
 	</extension>
 </addon>
 
+<addon id="script.mecooltoolbox" name="Mecool Toolbox" version="0.0.4" provider-name="Francisco Aarón - (fixed by Flecky)">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+
+
+    </requires>
+    <extension point="xbmc.python.script" library="main.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Utilidades para Mecool</summary>
+        <description lang="en_GB">Addon con utilidades varias para facilitar la preparación y el uso de LibreElec/CoreElec en los tv boxes Mecool, aunque algunas de las utilidades podrían servir para otros boxes, como por ejemplo las de OSCam/TvHeadend.</description>
+        <language></language>
+        <platform>all</platform>
+        <license>unlicense</license>
+        <forum></forum>
+        <website></website>
+        <email>xyz@xyz.com</email>
+        <source></source>
+        <news>Fixed por Flecky para su correcto funcionamiento con tvheadend 4.3</news>
+        <disclaimer></disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="script.module.slyguy"
        name="SlyGuy Shared"
 	   version="0.8.4"
@@ -163,6 +191,32 @@ No se acepta ninguna responsabilidad por el uso de este addon.
         <forum>https://www.tvaddons.co/forums</forum>
         <website>https://www.tvaddons.co</website>
     </extension>
+</addon>
+
+<addon id="script.normandy" name="NormandyEPG" version="1.3.6" provider-name="Monkey Brother">
+  <requires>
+    <import addon="service.tvheadend43" version="9.2.000"/>
+	<import addon="pvr.hts" version="4.4.21.1"/>
+    <import addon="service.softcam.oscam" version="9.2.000"/>
+  </requires>
+
+  <extension point="xbmc.python.script" library="addon.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary>EPG de Normandy, ahora en formato addon!!!. Mas informacion en https://normandy.es/</summary>
+	<description>NormandyEPG es la mejor manera de administrar el EPG para el servicio Tvheadend Server. Con este addon podras entre otras cosas, actualizar los ultimos cambios en el EPG, reinstalar o reparar el EPG.
+
+Recuerda que solo se da soporte a service.tvheadend43 dejando ya sin soporte la version service.tvheadend42.</description>
+    <disclaimer> Todo los derechos de autor, recaen en Normandy. </disclaimer>
+	<website>https://normandy.es/</website>
+    <platform>all</platform>
+	<assets>
+		<icon>./resources/icon.png</icon>
+		<screenshot>./resources/screenshot-01.png</screenshot>
+	</assets>
+  </extension>
 </addon>
 
 <addon id="script.ppsspp.launcher" name="PPSSPP" version="1.0.0" provider-name="MonkeyBrothers">

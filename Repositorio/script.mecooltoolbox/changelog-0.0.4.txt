@@ -1,0 +1,23 @@
+v0.0.1
+
+- Versión inicial
+
+v0.0.2
+
+- Ligera reestructuración de las opciones del addon.
+
+- El configurador de parámetros de lista M3U externa ahora no guarda los parámetros si no detecta cambios,
+  por lo que se evita el mensaje de "Parámetros guardados" al salir del diálogo si no se ha modificado nada
+
+- Añadida una función para agregar al skin Aeon Nox las opciones "Reiniciar en Android" y "Reiniciar en Recovery"
+  en el menú de apagado de Kodi, para que tanto los que usen LE/CE desde una unidad externa como los que lo instalen
+  en dual-boot puedan reiniciar a Android, y en el caso de dual-boot, incluso reiniciar al recovery instalado.
+  La modificación es totalmente reversible desde el mismo addon o mediante la reinstalación del skin.
+  
+v0.0.3
+
+- Cambios menores.
+
+v0.0.4
+
+- Actualizacion para service.tvheadend43 (by Flecky)
