@@ -216,8 +216,8 @@ Recuerda que solo se da soporte a service.tvheadend43 dejando ya sin soporte la 
 	<website>https://normandy.es/</website>
     <platform>all</platform>
 	<assets>
-		<icon>./resources/icon.png</icon>
-		<screenshot>./resources/screenshot-01.png</screenshot>
+		<icon>/resources/icon.png</icon>
+		<screenshot>/resources/screenshot-01.png</screenshot>
 	</assets>
   </extension>
 </addon>
