@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.video.disneyplus"
        name="Disney+"
-	   version="0.3.7"
+	   version="0.4.3"
 	   provider-name="Slyguy">
   <requires>
     <import addon="script.module.slyguy"/>
@@ -21,7 +21,7 @@ Abbonamento richiesto.</description>
     <license></license>
     <language></language>
     <website></website>
-    <news>Add Play Next Episodes / Movies and Skip Credits</news>
+    <news>Update Sync to Disney setting to sync both ways</news>
     <assets>
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
