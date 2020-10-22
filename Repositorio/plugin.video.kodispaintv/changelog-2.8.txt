@@ -1,3 +1,6 @@
+Version 2.8
+Cambio de servidor de menu principal
+
 Version 2.7
 Actualizado a base LSP Version 2.9.6
 

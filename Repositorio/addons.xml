@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.video.disneyplus"
        name="Disney+"
-	   version="0.4.3"
+	   version="0.4.6"
 	   provider-name="Slyguy">
   <requires>
     <import addon="script.module.slyguy"/>
@@ -31,7 +31,7 @@ Abbonamento richiesto.</description>
 
 <addon id="plugin.video.kodispaintv"
        name="[COLOR red]Kodi[/COLOR][COLOR yellow]Spain[/COLOR][COLOR red]Tv[/COLOR]"
-       version="2.7"
+       version="2.8"
        provider-name="joheos11">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -145,7 +145,7 @@ No se acepta ninguna responsabilidad por el uso de este addon.
 
 <addon id="script.module.slyguy"
        name="SlyGuy Shared"
-	   version="0.8.4"
+	   version="0.12.5"
 	   provider-name="SlyGuy">
   <requires>
     <!-- <import addon="xbmc.python" version="2.1.0"/> -->
