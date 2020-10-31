@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.normandy" name="NormandyEPG" version="20.10.09" provider-name="Monkey Brother">
+<addon id="script.normandy" name="NormandyEPG" version="20.10.31" provider-name="Monkey Brother">
   <requires>
     <import addon="service.tvheadend43" version="9.2.000"/>
 	<import addon="pvr.hts" version="4.4.21.1"/>
