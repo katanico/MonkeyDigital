@@ -196,7 +196,7 @@ No se acepta ninguna responsabilidad por el uso de este addon.
     </extension>
 </addon>
 
-<addon id="script.normandy" name="NormandyEPG" version="20.11.01" provider-name="Monkey Brother">
+<addon id="script.normandy" name="NormandyEPG" version="20.10.31" provider-name="Monkey Brother">
   <requires>
     <import addon="service.tvheadend43" version="9.2.000"/>
 	<import addon="pvr.hts" version="4.4.21.1"/>
