@@ -196,14 +196,13 @@ No se acepta ninguna responsabilidad por el uso de este addon.
     </extension>
 </addon>
 
-<addon id="script.normandy" name="NormandyEPG" version="20.11.03" provider-name="Monkey Brother">
+<addon id="script.normandy" name="NormandyEPG" version="20.11.04" provider-name="Monkey Brother">
   <requires>
     <import addon="service.tvheadend43" version="9.2.000"/>
 	<import addon="pvr.hts" version="4.4.21.1"/>
     <import addon="service.softcam.oscam" version="9.2.000"/>
 	<import addon="script.mecooltoolbox" version="0.0.4"/>
   </requires>
-
   <extension point="xbmc.python.script" library="addon.py">
     <provides>executable</provides>
   </extension>
@@ -218,7 +217,8 @@ Recuerda que solo se da soporte a service.tvheadend43 dejando ya sin soporte la 
     <platform>all</platform>
 	<assets>
 		<icon>icon.png</icon>
-		<screenshot>screenshots/screenshot001.jpg</screenshot>
+		<screenshot>_screenshots/screenshot000.jpg</screenshot>
+		<screenshot>_screenshots/screenshot001.jpg</screenshot>
 	</assets>
   </extension>
 </addon>
