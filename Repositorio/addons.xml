@@ -196,7 +196,7 @@ No se acepta ninguna responsabilidad por el uso de este addon.
     </extension>
 </addon>
 
-<addon id="script.normandy" name="NormandyEPG" version="20.11.02" provider-name="Monkey Brother">
+<addon id="script.normandy" name="NormandyEPG" version="20.11.03" provider-name="Monkey Brother">
   <requires>
     <import addon="service.tvheadend43" version="9.2.000"/>
 	<import addon="pvr.hts" version="4.4.21.1"/>
@@ -217,8 +217,8 @@ Recuerda que solo se da soporte a service.tvheadend43 dejando ya sin soporte la 
 	<website>https://normandy.es/</website>
     <platform>all</platform>
 	<assets>
-		<icon>./icon.png</icon>
-		<screenshot>./screenshot-01.png</screenshot>
+		<icon>icon.png</icon>
+		<screenshot>screenshots/screenshot001.jpg</screenshot>
 	</assets>
   </extension>
 </addon>
@@ -264,38 +264,9 @@ OSCam(11518) is a software to be used to decrypt digital television channels, as
 109
 - Update to version 11518
 - fixed missing Modules
-
-108
-- Update to version 11517
-
-107
-- Update to version 11487
-
-106
-- Update to version 11431
-
-105
-- Update to version 11420
-- add SSL support
-
-104
-- Update to version 11391
-
-103
-- Update to version 11350
-
-102
-- fix the delayed start workaround
-
-101
-- Update to version 11233
-- fix the WeTek_Play problems
-
-100
-- Update for LibreELEC 8.0
     </news>
     <assets>
-      <icon>resources/icon.png</icon>
+      <icon>icon.png</icon>
       <fanart>resources/fanart.png</fanart>
 
     </assets>
