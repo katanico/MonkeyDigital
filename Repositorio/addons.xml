@@ -196,31 +196,31 @@ No se acepta ninguna responsabilidad por el uso de este addon.
     </extension>
 </addon>
 
-<addon id="script.normandy" name="NormandyEPG" version="20.11.04" provider-name="Monkey Brother">
-  <requires>
-    <import addon="service.tvheadend43" version="9.2.000"/>
-	<import addon="pvr.hts" version="4.4.21.1"/>
-    <import addon="service.softcam.oscam" version="9.2.000"/>
-	<import addon="script.mecooltoolbox" version="0.0.4"/>
-  </requires>
-  <extension point="xbmc.python.script" library="addon.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="service_on.py" />
-  <extension point="xbmc.addon.metadata">
-    <summary>EPG de Normandy, ahora en formato addon!!!. Mas informacion en https://normandy.es/</summary>
-	<description>NormandyEPG es la mejor manera de administrar el EPG para el servicio Tvheadend Server. Con este addon podras entre otras cosas, actualizar los ultimos cambios en el EPG, reinstalar o reparar el EPG.
+<addon id="script.normandy" name="NormandyEPG" version="20.11.05" provider-name="Monkey Brother">
+    <requires>
+        <import addon="service.tvheadend43" version="9.2.000"/>
+	    <import addon="pvr.hts" version="4.4.21.1"/>
+        <import addon="service.softcam.oscam" version="9.2.000"/>
+	    <import addon="script.mecooltoolbox" version="0.0.4"/>
+    </requires>
+    <extension point="xbmc.python.script" library="addon.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.service" library="service_on.py" />
+    <extension point="xbmc.addon.metadata">
+        <summary>EPG de Normandy, ahora en formato addon!!!. Mas informacion en https://normandy.es/</summary>
+	    <description>NormandyEPG es la mejor manera de administrar el EPG para el servicio Tvheadend Server. Con este addon podras entre otras cosas, actualizar los ultimos cambios en el EPG, reinstalar o reparar el EPG.
 
 Recuerda que solo se da soporte a service.tvheadend43 dejando ya sin soporte la version service.tvheadend42.</description>
-    <disclaimer> Todo los derechos de autor, recaen en Normandy. </disclaimer>
-	<website>https://normandy.es/</website>
-    <platform>all</platform>
-	<assets>
-		<icon>icon.png</icon>
-		<screenshot>_screenshots/screenshot000.jpg</screenshot>
-		<screenshot>_screenshots/screenshot001.jpg</screenshot>
-	</assets>
-  </extension>
+        <disclaimer> Todo los derechos de autor, recaen en Normandy. </disclaimer>
+	    <website>https://normandy.es/</website>
+        <platform>all</platform>
+	    <assets>
+		    <icon>icon.png</icon>
+		    <screenshot>_screenshots/screenshot001.jpg</screenshot>
+		    <screenshot>_screenshots/screenshot002.jpg</screenshot>
+	    </assets>
+    </extension>
 </addon>
 
 <addon id="script.ppsspp.launcher" name="PPSSPP" version="1.0.0" provider-name="MonkeyBrothers">
