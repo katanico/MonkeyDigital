@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.video.disneyplus"
        name="Disney+"
-	   version="0.4.9"
+	   version="0.5.4"
 	   provider-name="Slyguy">
   <requires>
     <import addon="script.module.slyguy"/>
@@ -21,7 +21,7 @@ Abbonamento richiesto.</description>
     <license></license>
     <language></language>
     <website></website>
-    <news>Update Sync to Disney setting to sync both ways</news>
+    <news>Happy Holidays!</news>
     <assets>
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
@@ -145,7 +145,7 @@ No se acepta ninguna responsabilidad por el uso de este addon.
 
 <addon id="script.module.slyguy"
        name="SlyGuy Shared"
-	   version="0.16.5"
+	   version="0.17.8"
 	   provider-name="SlyGuy">
   <requires>
     <!-- <import addon="xbmc.python" version="2.1.0"/> -->
@@ -169,7 +169,7 @@ No se acepta ninguna responsabilidad por el uso de este addon.
   </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="5.1.17" provider-name="tvaddons">
+<addon id="script.module.urlresolver" name="URLResolver" version="5.1.18" provider-name="tvaddons">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0" /> -->
         <import addon="script.module.six" />
