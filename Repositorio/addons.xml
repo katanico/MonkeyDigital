@@ -145,7 +145,7 @@ No se acepta ninguna responsabilidad por el uso de este addon.
 
 <addon id="script.module.slyguy"
        name="SlyGuy Shared"
-	   version="0.17.8"
+	   version="0.21.8"
 	   provider-name="SlyGuy">
   <requires>
     <!-- <import addon="xbmc.python" version="2.1.0"/> -->
@@ -161,7 +161,7 @@ No se acepta ninguna responsabilidad por el uso de este addon.
     <license></license>
     <language></language>
     <website></website>
-    <news></news>
+    <news>Brand new Proxy Quality control method</news>
     <assets>
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
