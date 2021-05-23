@@ -147,8 +147,9 @@ No se acepta ninguna responsabilidad por el uso de este addon.
        name="SlyGuy Shared"
 	   version="0.31.0"
 	   provider-name="SlyGuy">
+  <requires>
+    <!-- <import addon="xbmc.python" version="2.1.0"/> -->
   </requires>
-  <extension point="xbmc.service" library="service.py" start="login" />
   <!-- <extension point="xbmc.python.script" library="default.py">
     <provides>executable</provides>
   </extension> -->
