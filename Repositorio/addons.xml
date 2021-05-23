@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.video.disneyplus"
        name="Disney+"
-	   version="0.6.1"
+	   version="0.6.7"
 	   provider-name="Slyguy">
   <requires>
     <import addon="script.module.slyguy"/>
@@ -21,7 +21,7 @@ Abbonamento richiesto.</description>
     <license></license>
     <language></language>
     <website></website>
-    <news>Add Hubs folder</news>
+    <news>Fix search</news>
     <assets>
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
@@ -145,23 +145,21 @@ No se acepta ninguna responsabilidad por el uso de este addon.
 
 <addon id="script.module.slyguy"
        name="SlyGuy Shared"
-	   version="0.21.8"
+	   version="0.31.0"
 	   provider-name="SlyGuy">
-  <requires>
-    <!-- <import addon="xbmc.python" version="2.1.0"/> -->
   </requires>
+  <extension point="xbmc.service" library="service.py" start="login" />
   <!-- <extension point="xbmc.python.script" library="default.py">
     <provides>executable</provides>
   </extension> -->
   <extension point="xbmc.python.module" library="resources/modules" />
-  <extension point="xbmc.service" library="service.py" start="login" />
   <extension point="xbmc.addon.metadata">
-    <description lang="en"></description>
+    <description lang="en">Common code used by all Slyguy add-ons</description>
     <reuselanguageinvoker>true</reuselanguageinvoker>
     <license></license>
     <language></language>
     <website></website>
-    <news>Brand new Proxy Quality control method</news>
+    <news></news>
     <assets>
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
@@ -169,7 +167,7 @@ No se acepta ninguna responsabilidad por el uso de este addon.
   </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="6.0.0" provider-name="tvaddons">
+<addon id="script.module.urlresolver" name="URLResolver" version="9999.6.1.01" provider-name="tvaddons">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0" /> -->
         <import addon="script.module.six" />

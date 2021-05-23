@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.disneyplus" 
        name="Disney+"
-	   version="0.6.1"
+	   version="0.6.7"
 	   provider-name="Slyguy">
   <requires>
     <import addon="script.module.slyguy"/>
@@ -20,7 +20,7 @@ Abbonamento richiesto.</description>
     <license></license>
     <language></language>
     <website></website>
-    <news>Add Hubs folder</news>
+    <news>Fix search</news>
     <assets>
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
