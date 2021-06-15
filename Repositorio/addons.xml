@@ -168,7 +168,7 @@ No se acepta ninguna responsabilidad por el uso de este addon.
   </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="9999.6.1.01" provider-name="tvaddons">
+<addon id="script.module.urlresolver" name="URLResolver" version="9999.6.1.03" provider-name="tvaddons">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0" /> -->
         <import addon="script.module.six" />
