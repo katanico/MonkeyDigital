@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.video.disneyplus"
        name="Disney+"
-	   version="0.7.1"
+	   version="0.9.3"
 	   provider-name="Slyguy">
   <requires>
     <import addon="script.module.slyguy"/>
@@ -21,7 +21,7 @@ Abbonamento richiesto.</description>
     <license></license>
     <language></language>
     <website></website>
-    <news>New search!</news>
+    <news>Eye candy thanks to @andygoblins</news>
     <assets>
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
@@ -145,7 +145,7 @@ No se acepta ninguna responsabilidad por el uso de este addon.
 
 <addon id="script.module.slyguy"
        name="SlyGuy Shared"
-	   version="0.36.0"
+	   version="0.41.3"
 	   provider-name="SlyGuy">
   <requires>
     <!-- <import addon="xbmc.python" version="2.1.0"/> -->
@@ -170,7 +170,7 @@ No se acepta ninguna responsabilidad por el uso de este addon.
   </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="9999.6.1.03" provider-name="tvaddons">
+<addon id="script.module.urlresolver" name="URLResolver" version="9999.6.1.04" provider-name="tvaddons">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0" /> -->
         <import addon="script.module.six" />
