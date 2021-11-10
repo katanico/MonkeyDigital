@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.hbomax" 
+       name="HBO Max" 
+	   version="0.7.5"
+	   provider-name="Slyguy">
+  <requires>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py" provides="video">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <description lang="en">Say hello to HBO Max, the streaming platform that bundles all of HBO together with even more of your favorite movies and TV series, plus new Max Originals.
+
+Subscription required.</description>
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <license></license>
+    <language></language>
+    <website></website>
+    <news>Add Spanish translation. thanks @espinosaivan</news>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
