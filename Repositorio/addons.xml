@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.video.disneyplus"
        name="Disney+"
-	   version="0.9.9"
+	   version="0.10.4"
 	   provider-name="Slyguy">
   <requires>
     <import addon="script.module.slyguy"/>
@@ -24,7 +24,7 @@ Abonnement requis.</description>
     <license></license>
     <language></language>
     <website></website>
-    <news>Fix Star hub</news>
+    <news></news>
     <assets>
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
@@ -180,14 +180,11 @@ No se acepta ninguna responsabilidad por el uso de este addon.
 
 <addon id="script.module.slyguy"
        name="SlyGuy Shared"
-	   version="0.46.0"
+	   version="0.47.5"
 	   provider-name="SlyGuy">
   <requires>
-    <!-- <import addon="xbmc.python" version="2.1.0"/> -->
+    <import addon="slyguy.dependencies"/>
   </requires>
-  <!-- <extension point="xbmc.python.script" library="default.py">
-    <provides>executable</provides>
-  </extension> -->
   <extension point="xbmc.service" library="service.py" start="login" />
   <extension point="xbmc.python.pluginsource" library="default.py" />
   <extension point="xbmc.python.module" library="resources/modules" />
@@ -197,7 +194,7 @@ No se acepta ninguna responsabilidad por el uso de este addon.
     <license></license>
     <language></language>
     <website></website>
-    <news>updated German translation. thanks @TheOppermann</news>
+    <news>add Spanish translation. thanks @espinosaivan</news>
     <assets>
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
@@ -205,11 +202,12 @@ No se acepta ninguna responsabilidad por el uso de este addon.
   </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="9999.6.1.04" provider-name="tvaddons">
+<addon id="script.module.urlresolver" name="URLResolver" version="9999.7.0.00" provider-name="tvaddons">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0" /> -->
         <import addon="script.module.six" />
         <import addon="script.module.kodi-six" />
+        <import addon="script.module.certifi" />
         <import addon="plugin.video.youtube" optional="true" />
         <import addon="script.module.python.twitch" optional="true" />
         <import addon="plugin.googledrive" optional="true" />
@@ -324,5 +322,26 @@ OSCam(11518) is a software to be used to decrypt digital television channels, as
 		<language></language>
 		<website>https://normandy.es</website>
 	</extension>
+</addon>
+
+<addon id="slyguy.dependencies"
+       name="SlyGuy Dependencies"
+	   version="0.0.1"
+	   provider-name="SlyGuy">
+  <requires>
+  </requires>
+  <extension point="xbmc.python.module" library="resources/modules" />
+  <extension point="xbmc.addon.metadata">
+    <description lang="en">Dependencies required by all Slyguy add-ons</description>
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <license></license>
+    <language></language>
+    <website></website>
+    <news></news>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
 </addon>
 </addons>

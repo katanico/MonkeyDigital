@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.module.slyguy" 
-       name="SlyGuy Shared"
-	   version="0.47.5"
+<addon id="slyguy.dependencies"   
+       name="SlyGuy Dependencies"
+	   version="0.0.1"
 	   provider-name="SlyGuy">
   <requires>
-    <import addon="slyguy.dependencies"/>
   </requires>
-  <extension point="xbmc.service" library="service.py" start="login" />
-  <extension point="xbmc.python.pluginsource" library="default.py" />
   <extension point="xbmc.python.module" library="resources/modules" />
   <extension point="xbmc.addon.metadata">
-    <description lang="en">Common code required by all Slyguy add-ons</description>
+    <description lang="en">Dependencies required by all Slyguy add-ons</description>
     <reuselanguageinvoker>true</reuselanguageinvoker>
     <license></license>
     <language></language>
     <website></website>
-    <news>add Spanish translation. thanks @espinosaivan</news>
+    <news></news>
     <assets>
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
