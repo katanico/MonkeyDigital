@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.moestv" name="Moe's TV" version="0.0.9" provider-name="La Taberna">
+<addon id="plugin.video.moestv" name="Moe's TV" version="0.1.1" provider-name="La Taberna">
   <requires>
     <import addon="script.module.six" version="1.11.0"/>
     <import addon="script.module.simplecache"/>
     <import addon="script.module.inputstreamhelper" version="0.5.0"/>
-    <import addon="plugin.video.youtube" version="5.0.0"/>
+    <import addon="plugin.video.duffyou" version="0.1.2" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
@@ -19,7 +19,11 @@
         <fanart>fanart.jpg</fanart>
     </assets>
     <license>[B]Este es un software gratuito[/B]</license>
-    <news>- Version 0.0.9:
+    <news> - Versión 0.1.1:
+      * Reparado fix MPD en Atresplayer
+      * Uso de Duff You para resolver enlaces de youtube
+      * Mejoras en la actualización de canales
+      [CR]- Version 0.0.9:
       * Nuevos canales
       * Cambios en el orden de los canales
       * Permitir descargas en la mayoria de los canales.
