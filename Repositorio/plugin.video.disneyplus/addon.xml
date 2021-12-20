@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.disneyplus" 
        name="Disney+"
-	   version="0.10.4"
+	   version="0.10.7"
 	   provider-name="Slyguy">
   <requires>
     <import addon="script.module.slyguy"/>
@@ -23,7 +23,7 @@ Abonnement requis.</description>
     <license></license>
     <language></language>
     <website></website>
-    <news></news>
+    <news>Support IMAX Enhanced playback versions</news>
     <assets>
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
