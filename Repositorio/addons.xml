@@ -109,12 +109,12 @@ No se acepta ninguna responsabilidad por el uso de este addon.
   </extension>
 </addon>
 
-<addon id="plugin.video.moestv" name="Moe's TV" version="0.1.1" provider-name="La Taberna">
+<addon id="plugin.video.moestv" name="Moe's TV" version="0.1.2" provider-name="La Taberna">
   <requires>
     <import addon="script.module.six" version="1.11.0"/>
     <import addon="script.module.simplecache"/>
     <import addon="script.module.inputstreamhelper" version="0.5.0"/>
-    <import addon="plugin.video.duffyou" version="0.1.2" optional="true"/>
+    <import addon="plugin.video.duffyou" version="0.1.2"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
@@ -129,7 +129,9 @@ No se acepta ninguna responsabilidad por el uso de este addon.
         <fanart>fanart.jpg</fanart>
     </assets>
     <license>[B]Este es un software gratuito[/B]</license>
-    <news> - Versión 0.1.1:
+    <news> - Versión 0.1.2:
+      * Reparado fix en multi-bitrate
+      [CR]- Versión 0.1.1:
       * Reparado fix MPD en Atresplayer
       * Uso de Duff You para resolver enlaces de youtube
       * Mejoras en la actualización de canales
